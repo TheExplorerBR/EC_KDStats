@@ -26,7 +26,7 @@ public class StatsCommand implements CommandExecutor{
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {	
 		
-		if (command.getName().equalsIgnoreCase("stats")) {
+		if (command.getName().equalsIgnoreCase("kdstats")) {
 			
 			if(!(sender instanceof Player)) {
 				String OnlyPlayers = plugin.cm.getConfigMsgs().getString("Messages.Only Players");

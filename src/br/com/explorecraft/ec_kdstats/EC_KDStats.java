@@ -64,7 +64,7 @@ public class EC_KDStats extends JavaPlugin {
 	}
 	
 	public void registerCMD() {
-		getCommand("stats").setExecutor(new StatsCommand());
+		getCommand("kdstats").setExecutor(new StatsCommand());
 		
 		
 	}

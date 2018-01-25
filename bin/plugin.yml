@@ -3,6 +3,6 @@ main: br.com.explorecraft.ec_kdstats.EC_KDStats
 version: 1.0
 author: [TheExplorerBR]
 commands:
-  stats:
+  kdstats:
     description: "Look Kill/Death statistics of player"    
-    usage: "/stats <player>" 
+    usage: "/kdstats <player>" 
