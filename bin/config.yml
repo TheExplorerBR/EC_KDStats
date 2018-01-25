@@ -1,0 +1,11 @@
+# =================================== Kill/Death Stats Config.yml ===========================================
+# Author: TheExplorerBR
+# Here you Set your SQL Database Settings. Set enable: true to use MySQL or false to use SQLite
+# ===========================================================================================================
+MySQL:
+  enable: false 
+  hostname: localhost
+  port: 3306
+  database: Your Database Name
+  username: Your Database user
+  password: Your Database password
