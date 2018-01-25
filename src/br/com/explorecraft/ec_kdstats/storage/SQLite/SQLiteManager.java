@@ -184,8 +184,8 @@ public void StatsOther(String table, String TUuid, Player p, Player t) {
 		ResultSet rs = s.executeQuery();
 		 
 		if (rs.next()) {				
-			int deaths = rs.getInt("kills");
-			int kills = rs.getInt("deaths");						
+			int deaths = rs.getInt("deaths");
+			int kills = rs.getInt("kills");						
 			sqlite.getConnection().close();
 			sqlite.setConnection(null);
 			

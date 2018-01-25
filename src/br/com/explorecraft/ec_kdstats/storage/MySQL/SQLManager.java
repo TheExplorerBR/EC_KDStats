@@ -180,8 +180,8 @@ public class SQLManager {
 			ResultSet rs = s.executeQuery();
 			 
 			if (rs.next()) {				
-				int deaths = rs.getInt("kills");
-				int kills = rs.getInt("deaths");						
+				int deaths = rs.getInt("deaths");
+				int kills = rs.getInt("kills");						
 				mysql.getConnection().close();
 				mysql.setConnection(null);
 				
